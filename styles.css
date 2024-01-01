@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background: #333 url('https://s1.best-wallpaper.net/wallpaper/m/1802/Robot-ready-to-run-black-background_m.jpg') no-repeat center center / cover;
+  background-size: cover;
+  color: #fff;
+  overflow:hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+h1, h2 {
+  font-weight: 100;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 200px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
